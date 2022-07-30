@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: sans-serif;
+			margin: 0px;
+        }
+        body > header {
+            background-color: #b86c37;
+        }
+        header {
+            text-align: center;
+        }
+        ol {
+			padding: 0 16px;
+			margin: 0px;
+		}
+        nav {
+			text-align: center;
+		}
+        header nav {
+			display: flex;
+			justify-content: space-evenly;
+		}
+        a {
+			text-decoration-line: none;
+		}
+        span a {
+			font-size: 24px;
+			font-weight: bold;
+			color: #0107bb;
+		}
+        span a:hover {
+			color:whitesmoke;
+		}
+        li a {
+			color: red;
+		}
+		li a:hover {
+			color:black;
+		}
+        main {
+            font-size: 18px;
+        }
+        main nav {
+            background-color: #f4d49e;
+			border: 1px solid;
+			display: inline-block;
+			padding: 8px;
+			margin-bottom: 0px;
+			text-align: left;
+		}
+        h1 {
+			margin: 0px;
+            padding-right: 1em;
+		}
+        header h2 {
+			margin: 0px;
+			font-size: 30px;
+		}
+        section#section1 {
+            background-image: url("imagem - tf2 team.png");
+            background-size: cover;
+            background-position-y: 51.5%;
+        }
+        #section1 div > header {
+            margin-left: 15px;
+            padding-top: 15px;
+        }
+        #section1 nav {
+            margin: 15px;
+        }
+        div {
+            background-color: rgba(255,255,255,0.4);
+            padding: 15px;
+        }
+        #Scout {
+            background-image: url('imagem - background scout.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Soldier {
+            background-image: url('imagem - background soldier.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Pyro {
+            background-image: url('imagem - background pyro.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Demoman {
+            background-image: url('imagem - background demoman.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Heavy {
+            background-image: url('imagem - background heavy.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Engineer {
+            background-image: url('imagem - background engineer.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Médico {
+            background-image: url('imagem - background medic.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Sniper {
+            background-image: url('imagem - background sniper.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        #Spy {
+            background-image: url('imagem - background spy.png');
+            background-size: 50%;
+            background-position-y: center;
+            background-attachment: fixed;
+        }
+        table, th, td {
+            border: solid;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 0 5px;
+        }
+
+    </style>
+    <header>
+        <h1>Classes</h1>
+        <nav>
+            <span><a href="index.html">inicio</a></span> 
+            <span><a href="times.html">times</a></span> 
+            <span><a href="classes.html">classes</a></span>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <div>
+                <header>
+                    Existe um total de 9 classes de mercenarios sendo que cada uma delas tem um diferencial em sua forma de jogar. 
+                    A forma de jogar varia bastante, já que cada classe é classificada em uma linha de frente, mas não se limitando a ela, 
+                    pois existem diversas armas(mais de 100) e cada uma delas pode mudar a forma de se jogar com determinada classe.
+                </header>
+
+                <nav>
+                    <header><h2>Vá para</h2></header>
+                    <ol>
+                        <li><a href="#Scout">Scout</a></li>
+                        <li><a href="#Soldier">Soldier</a></li>
+                        <li><a href="#Pyro">Pyro</a></li>
+                        <li><a href="#Demoman">Demoman</a></li>
+                        <li><a href="#Heavy">Heavy</a></li>
+                        <li><a href="#Engineer">Engineer</a></li>
+                        <li><a href="#Médico">Medic</a></li>
+                        <li><a href="#Sniper">Sniper</a></li>
+                        <li><a href="#Spy">Spy</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <section id="section2">
+            <article id="Scout">
+                <div>
+                    <header><img src="imagem - simbolo do scout.png" alt="imagem do icone do scout"></header>
+                    <h2>Scout</h2>
+                    <p>
+                        O Scout é uma classe de ataque, a primeira classe listada. 
+                        O Scout é um valentão, fá de baseball, que nasceu em Boston, Massachusetts. 
+                        O Scout é a unica classe que pode dar pulo duplo. 
+                        Possui em sua grande maioria armas hitscam.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>Comum</b></td>
+                            <td><b>125</b></td>
+                            <td><b>185</b></td>
+                        </tr>
+                        <tr>
+                            <td>João Pestana</td>
+                            <td>110</td>
+                            <td>165</td>
+                        </tr>
+                        <tr>
+                            <td>Pistola Portátil do Peralta</td>
+                            <td>125</td>
+                            <td>185</td>
+                        </tr>
+                        <tr>
+                            <td>Pistola Portátil do Peralta e João Pestana</td>
+                            <td>110</td>
+                            <td>165</td>
+                        </tr>
+                        <tr>
+                            <td>Entrega Especial</td>
+                            <td>125</td>
+                            <td>185</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Scout</td>
+                            <td>133%</td>
+                            <td>120%</td>
+                            <td>44%</td>
+                            <td>107%</td>
+                        </tr>
+                        <tr>
+                            <td>Com a Destruidora do Degenerado em 0%</td>
+                            <td>120%</td>
+                            <td>108%</td>
+                            <td>40%</td>
+                            <td>96%</td>
+                        </tr>
+                        <tr>
+                            <td>Com a Destruidora do Degenerado em 100%</td>
+                            <td>173%</td>
+                            <td>156%</td>
+                            <td>58%</td>
+                            <td>139%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Soldier">
+                <div>
+                    <header><img src="imagem - simbolo do solder.png" alt="imagem do icone do soldier"></header>
+                    <h2>Soldier</h2>
+                    <p>
+                        O Soldier é uma classe de ataque, é a segunda classe listada. 
+                        O Soldier é um patriota psicótico do centro dos Estados Unidos.
+                        O Soldier é uma classe que pode dar pulos com seus foguetes.
+                        Possui os dois tipos de arma(hitscam e projetil).
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>Comum</b></td>
+                            <td><b>200</b></td>
+                            <td><b>300</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Com o Reforço do Batalhão</b></td>
+                            <td>220</td>
+                            <td>310</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Soldier</td>
+                            <td>80%</td>
+                            <td>72%</td>
+                            <td>27%</td>
+                            <td>64%</td>
+                        </tr>
+                        <tr>
+                            <td>Carregando o Avacalhador 5000</td>
+                            <td>27%</td>
+                            <td>27%</td>
+                            <td>9%</td>
+                            <td>21%</td>
+                        </tr>
+                        <tr>
+                            <td>Empunhando o Plano de fuga mais com 160 pontos de vida</td>
+                            <td>80%</td>
+                            <td>72%</td>
+                            <td>27%</td>
+                            <td>64%</td>
+                        </tr>
+                        <tr>
+                            <td>Empunhando o Plano de Fuga entre 160 e 121 pontos de vida</td>
+                            <td>88%</td>
+                            <td>79%</td>
+                            <td>29%</td>
+                            <td>70%</td>
+                        </tr>
+                        <tr>
+                            <td>Empunhando o Plano de Fuga entre 120 e 81 pontos de vida</td>
+                            <td>96%</td>
+                            <td>86%</td>
+                            <td>32%</td>
+                            <td>77%</td>
+                        </tr>
+                        <tr>
+                            <td>Empunhando o Plano de Fuga entre 80 e 41 pontos de vida</td>
+                            <td>112%</td>
+                            <td>101%</td>
+                            <td>37%</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>Empunhando o Plano de Fuga abaixo 41 pontos de vida</td>
+                            <td>128%</td>
+                            <td>115%</td>
+                            <td>43%</td>
+                            <td>102%</td>
+                        </tr>
+                        <tr>
+                            <td>Com a Ação Disciplinar</td>
+                            <td>120%</td>
+                            <td>102%</td>
+                            <td>67%</td>
+                            <td>104%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Pyro">
+                <div>
+                    <header><img src="imagem - simbolo do pyro.png" alt="imagem do icone do pyro"></header>
+                    <h2>Pyro</h2>
+                    <p>
+                        O Pyro é uma classe de ataque, a terceira listada. 
+                        O Pyro é um piromaníaco resmungante de origem desconhecida que tem uma paixão ardente para todas as coisas relacionadas com o fogo.
+                        O Pyro possui uma abilidade unica, a de atear fogo nas pessoas e a de refletir quase tudo o que for projétil. 
+                        Possui os dois tipos de armas(hitscam e projetil).
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>175</b></td>
+                            <td><b>260</b></td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Pyro</td>
+                            <td>100%</td>
+                            <td>90%</td>
+                            <td>33%</td>
+                            <td>80%</td>
+                        </tr>
+                        <tr>
+                            <td>Com a Ligação Direta ativada</td>
+                            <td>115%</td>
+                            <td>104%</td>
+                            <td>38%</td>
+                            <td>92%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Demoman">
+                <div>
+                    <header><img src="imagem - simbolo do demoman.png" alt="imagem do icone do demoman"></header>
+                    <h2>Demoman</h2>
+                    <p>
+                        O Demoman é uma classe de defesa, a quarta listada. 
+                        O Demoman é um especialista em explosões, bebedor de sidra da cidade escocesa de Ullapool. 
+                        O Demoman possui a habilidade de adicionar tempo de esplosão aos seus projeteis alem de ter itens que dão a habilidade de investir em inimigos e dar muito dano com sua melee. 
+                        Possui apenas armas de projetil.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>175</b></td>
+                            <td><b>260</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH ou Ferro Nove do Nessie equipado (sem cabeças)</b></td>
+                            <td>150</td>
+                            <td>225</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH ou Ferro Nove do Nessie carregando 1 cabeça</b></td>
+                            <td>165</td>
+                            <td>245</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH ou Ferro Nove do Nessie carregando 2 cabeça</b></td>
+                            <td>180</td>
+                            <td>270</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH ou Ferro Nove do Nessie carregando 3 cabeça</b></td>
+                            <td>195</td>
+                            <td>290</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH ou Ferro Nove do Nessie carregando 4 cabeça ou mais</b></td>
+                            <td>210</td>
+                            <td>315</td>
+                        </tr>
+                        <tr>
+                            <td><b>Botinhas do Ali Babá</b></td>
+                            <td>200</td>
+                            <td>300</td>
+                        </tr>
+                        <tr>
+                            <td><b>Botinhas do Ali Babá e Eyelander, HHHH ou Ferro Nove do Nessie equipado (sem cabeças)</b></td>
+                            <td>175</td>
+                            <td>260</td>
+                        </tr>
+                        <tr>
+                            <td><b>Botinhas do Ali Babá e Eyelander, HHHH ou Ferro Nove do Nessie carregando 1 cabeça</b></td>
+                            <td>190</td>
+                            <td>285</td>
+                        </tr>
+                        <tr>
+                            <td><b>Botinhas do Ali Babá e Eyelander, HHHH ou Ferro Nove do Nessie carregando 2 cabeça</b></td>
+                            <td>205</td>
+                            <td>305</td>
+                        </tr>
+                        <tr>
+                            <td><b>Botinhas do Ali Babá e Eyelander, HHHH ou Ferro Nove do Nessie carregando 4 cabeça ou mais</b></td>
+                            <td>235</td>
+                            <td>350</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Velociade</th>
+                        </tr>
+                        <tr>
+                            <td><b>Comum</b></td>
+                            <td>93%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Corta-crânios Escocês equipado</b></td>
+                            <td>79.33%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH or Ferro Nove do Nessie equipado carregando 1 cabeça</b></td>
+                            <td>100.67%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH or Ferro Nove do Nessie equipado carregando 2 cabeça</b></td>
+                            <td>108%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH or Ferro Nove do Nessie equipado carregando 3 cabeça</b></td>
+                            <td>115.67%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Eyelander, HHHH or Ferro Nove do Nessie equipado carregando 4 cabeça ou mais</b></td>
+                            <td>123%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Investindo com a Tarja de Investida ou o Escudo Esplêndido com o Corta-crânios Escocês equipado</b></td>
+                            <td>212.5%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Investindo com a Tarja de Investida ou o Corta-crânios Escocês</b></td>
+                            <td>250%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Heavy">
+                <div>
+                    <header><img src="imagem - simbolo do heavy.png" alt="imagem do icone do heavy"></header>
+                    <h2>Heavy</h2>
+                    <p>
+                        O Heavy é uma classe de defesa, é a quinta listada. 
+                        O Heavy é grandão, punhos de aço, vindo da gloriosa União Soviética. 
+                        O Heavy Possui a habilidade de ser um tanque para o time. 
+                        Possui apenas armas hitscan.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>300</b></td>
+                            <td><b>450</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Após comer Barra de Dalokohs</b></td>
+                            <td>350</td>
+                            <td>450</td>
+                        </tr>
+                        <tr>
+                            <td><b>Com o Espírito do Guerreiro ativado</b></td>
+                            <td>260</td>
+                            <td>420</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                        </tr>
+                        <tr>
+                            <td>Heavy</td>
+                            <td>77%</td>
+                        </tr>
+                        <tr>
+                            <td>Com sua arma primaria em rotação</td>
+                            <td>37%</td>
+                        </tr>
+                        <tr>
+                            <td>Com a Fera de branze em rotação</td>
+                            <td>14.66%</td>
+                        </tr>
+                        <tr>
+                            <td>Com as Geradoras de Rapidez Urgente</td>
+                            <td>99.67%</td>
+                        </tr>
+                        <tr>
+                            <td>Após comer o Sandviche de Bife de Búfalo</td>
+                            <td>103.5%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+        
+            <article id="Engineer">
+                <div>
+                    <header><img src="imagem - simbolo do engineer.png" alt="imagem do icone do engeneer"></header>
+                    <h2>Engineer</h2>
+                    <p>
+                        O Engineer é uma classe de defesa, a sexta listada. 
+                        O Engineer é um amável texano de fala mansa e com jeito para todas as coisas mecânicas. 
+                        O Engineer possui a habilidade de criar construções de defesa, de cura e de teletransporte. 
+                        Possui em sua grande maioria armas hitscan.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>125</b></td>
+                            <td><b>185</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Com o Pistoreiro equipado</b></td>
+                            <td>150</td>
+                            <td>225</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Engineer</td>
+                            <td>100%</td>
+                            <td>90%</td>
+                            <td>33%</td>
+                            <td>80%</td>
+                        </tr>
+                        <tr>
+                            <td>Transportando uma contrução</td>
+                            <td>90%</td>
+                            <td>81%</td>
+                            <td>30%</td>
+                            <td>72%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Médico">
+                <div>
+                    <header><img src="imagem - simbolo do médico.png" alt="imagem do icone do médico"></header>
+                    <h2>Médico</h2>
+                    <p>
+                        O Médico é uma classe de suporte, é a sétima listada. 
+                        O Médico é um homem teutônico da medicina. 
+                        O Médico possui a habilidade de curar seus amigos e o unico a dar sobre cura a seus aliados ou a spys disfarçados. 
+                        Possui apenas armas de projétil.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>150</b></td>
+                            <td><b>255</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>Com a Vitasserra equipada</b></td>
+                            <td>140</td>
+                            <td>210</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Médico</td>
+                            <td>107%</td>
+                            <td>96%</td>
+                            <td>36%</td>
+                            <td>85%</td>
+                        </tr>
+                        <tr>
+                            <td>Com a Overdose com 100% de UberCarga</td>
+                            <td>128%</td>
+                            <td>115%</td>
+                            <td>43%</td>
+                            <td>102%</td>
+                        </tr>
+                        <tr>
+                            <td>Curando um Scout</td>
+                            <td>133%</td>
+                            <td>120%</td>
+                            <td>44%</td>
+                            <td>107%</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Sniper">
+                <div>
+                    <header><img src="imagem - simbolo do sniper.png" alt="imagem do icone do sniper"></header>
+                    <h2>Sniper</h2>
+                    <p>
+                        O Sniper é uma classe de suporte, é a oitava listada. 
+                        O Sniper, vindo do país perdido da Nova Zelândia e criado no interior imperdoável australiano, é um atirador duro e preparado. 
+                        O Sniper possui a habilidade de mijar(por meio de mijo engarrafado, jarates) nas pessoas e de dar tiros na cabeça que dão muito mais dano(3x). 
+                        Possui em sua maioria armas hitscan.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>125</b></td>
+                            <td><b>185</b></td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Sniper</td>
+                            <td>100%</td>
+                            <td>90%</td>
+                            <td>33%</td>
+                            <td>80%</td>
+                        </tr>
+                        <tr>
+                            <td>Dando zoom com seu rifle</td>
+                            <td>27%</td>
+                            <td>27%</td>
+                            <td>9%</td>
+                            <td>21%</td>
+                        </tr>
+                        <tr>
+                            <td>Com o arco puxado</td>
+                            <td>53%</td>
+                            <td>53%</td>
+                            <td>18%</td>
+                            <td>N/D</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+
+            <article id="Spy">
+                <div>
+                    <header><img src="imagem - simbolo do spy.png" alt="imagem do icone do spy"></header>
+                    <h2>Spy</h2>
+                    <p>
+                        O Spy é uma classe de suporte, é a nona listada. 
+                        O Spy, vindo de uma região indeterminada da França, é um aficionado por ternos de bom corte e em facas de corte melhor ainda. 
+                        O Spy possui a habilidade de te dar um golpe fatal, ficar invisivel, finjir sua morte, se disfarçar de um inimigo, desativar e destruir as construções do engineer, e sabe mais o que esse homem pode fazer. 
+                        Possui apenas armas hitscan.
+                    </p>
+
+                    <h2>Vida</h2>
+                    <table>
+                        <tr>
+                            <th>Modificador</th>
+                            <th>Máximo normal</th>
+                            <th>Sobre-curado</th>
+                        </tr>
+                        <tr>
+                            <td><b>comum</b></td>
+                            <td><b>125</b></td>
+                            <td><b>185</b></td>
+                        </tr>
+                        <tr>
+                            <td><b>com a grande ganhador equipada</b></td>
+                            <td>100</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td><b>com a kunai do conspirador equipada</b></td>
+                            <td>70</td>
+                            <td>105</td>
+                        </tr>
+                        <tr>
+                            <td><b>mãximo de sobre cura com uma facada nas costas</b></td>
+                            <td>N/D</td>
+                            <td>210</td>
+                        </tr>
+                    </table>
+
+                    <h2>Velocidade</h2>
+                    <table>
+                        <tr>
+                            <th>Condição</th>
+                            <th>Normal</th>
+                            <th>De costas</th>
+                            <th>Agachado</th>
+                            <th>Nadando</th>
+                        </tr>
+                        <tr>
+                            <td>Spy</td>
+                            <td>107%</td>
+                            <td>96%</td>
+                            <td>36%</td>
+                            <td>85%</td>
+                        </tr>
+                        <tr>
+                            <td>disfarçado de uma classe inimiga</td>
+                            <td colspan="4">ele só não fica mais rapido</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
